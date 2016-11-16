@@ -1,6 +1,5 @@
 function fruit()
 {
-<script type="text/javascript">
 var width = 1024;
 var height = 768;
 var ctrl = d3.select("body").append("svg").attr("width", width).attr("height", height);
@@ -28,5 +27,5 @@ d3.csv("https://github.com/winnie31171/data/blob/master/apple2013.csv",
 	}
 
 );
-</script>
+
 }
